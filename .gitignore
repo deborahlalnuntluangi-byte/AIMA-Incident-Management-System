@@ -1,0 +1,24 @@
+# Environment & Secrets
+.env
+*.env
+.env.*
+secrets.toml
+*.key
+*.pem
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Database files
+*.db
+*.sqlite3
+tickets.db
+chroma_db/
+
+# Streamlit local config
+.streamlit/
