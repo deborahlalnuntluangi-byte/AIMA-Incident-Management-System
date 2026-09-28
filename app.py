@@ -18,6 +18,9 @@ st.set_page_config(
 # Custom CSS Styling
 st.markdown("""
 <style>
+    .stApp{
+    background-color:#F48FB1;
+    }
     .main-header {
         font-size: 2.2rem;
         font-weight: 700;
@@ -26,7 +29,7 @@ st.markdown("""
     }
     .sub-header {
         font-size: 1.0rem;
-        color: #64748B;
+        color: #000000;
         margin-bottom: 20px;
     }
     .metric-card {
